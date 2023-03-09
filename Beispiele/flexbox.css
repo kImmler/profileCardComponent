@@ -1,0 +1,27 @@
+body {
+    margin: 0;
+    background-color: white;
+}
+
+.container {
+    background-color: coral;
+    width: 100%;
+    height: 300px;
+    display: flex;
+}
+
+.item {
+    background-color: palegreen;
+    width: 100px;
+    height: 50px;
+    margin: 10px;
+    text-align: center;
+}
+
+.item.vier {
+    flex: 2 0 220px;
+}
+
+.item.zwei {
+    align-self: flex-end;
+}

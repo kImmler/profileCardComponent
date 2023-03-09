@@ -1,0 +1,21 @@
+body {
+    height: 100%;
+    margin: 0;
+    padding: 0;
+}
+
+.container {
+    display: flex;
+    width: 100vw;
+    height: 100vh;
+    margin: 0 auto;
+    text-align: center;
+}
+
+.box {
+   height: auto;
+   flex: 1;
+   background-color: lightgreen;
+   align-self: center;
+   justify-content: center;
+}
